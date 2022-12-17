@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulado ENADE</title>
+    <link rel="stylesheet" href="../css/questoes.css">
+</head>
+<body>
+    <!--div container que engloba todo o conteudo do site-->
+    <div class="container">
+        <!--tag heade que engloba o cabecalho do site-->
+        <header>
+            <!--tag nav engloba a navegacao dos menus-->
+            <nav>
+                <div class="logo">
+                    <a href="https://www.gov.br/inep/pt-br" target="_blank" rel=external><img src="../imagens/logo inep.png" width="100px" height="30px" ></a>
+                    <a href="index.html"><img src="../imagens/home1.png" alt=""></a>
+                </div>    
+                    <div class="navegacao">   
+                        <div><a href="sobre.html">Sobre</a> </div>
+                        <div><a href="creditos.html">Créditos</a> </div>
+                    </div>
+            </nav>
+        </header>
+        <!--tag main que engloba o conteudo principal do site, exemplo: questoes, alternativas e textos -->
+        <main>
+            <div class="barraNav">
+                <a class="buttonNav" href="questao1.html">01</a>
+                <a class="buttonNav" href="questao2.html">02</a>
+                <a class="buttonNav" href="questao3.html">03</a>
+                <a class="buttonNav" href="questao4.html">04</a>
+                <a class="buttonNav" href="questao5.html">05</a>
+                <a class="buttonNav" href="questao6.html">06</a>
+                <a class="buttonNav" href="questao7.html">07</a>
+                <a class="buttonNav" href="questao8.html">08</a>
+                <a class="buttonNav" href="questao9.html">09</a>
+                <a class="buttonNav" href="questao10.html">10</a>
+                <a class="buttonNav" href="questao11.html">11</a>
+                <a class="buttonNav" href="questao12.html">12</a>
+                <a class="buttonNav" href="questao13.html">13</a>
+                <a class="buttonNav" href="questao14.html">14</a>
+                <a class="buttonNav" href="questao15.html">15</a>
+                <a class="buttonNav" href="questao16.html">16</a>
+                <a class="buttonNav" href="questao17.html">17</a>
+                <a class="buttonNav" href="questao18.html">18</a>
+                <a class="buttonNav" href="questao19.html">19</a>
+                <a class="buttonNav" href="questao20.html">20</a>
+                <a class="buttonNav" href="questao21.html">21</a>
+                <a class="buttonNav" href="questao22.html">22</a>
+                <a class="buttonNav" href="questao23.html">23</a>
+                <a class="buttonNav" href="questao24.html">24</a>
+                <a class="buttonNav" href="questao25.html">25</a>
+                <a class="buttonNav" href="questao26.html">26</a>
+                <a class="buttonNav" href="questao27.html">27</a>
+                <a class="buttonNav" href="questao28.html">28</a>
+                <a class="buttonNav" href="questao29.html">29</a>
+                <a class="buttonNav" href="questao30.html">30</a>
+                <a class="buttonNav" href="questao31.html">31</a>
+                <a class="buttonNav" href="questao32.html">32</a>
+                <a class="buttonNav" href="questao33.html">33</a>
+                <a class="buttonNav" href="questao34.html">34</a>
+                <a class="buttonNav" href="questao35.html">35</a>
+            </div>
+            <p style="margin: 0px; font-size: 20px;">Progresso</p>
+            <div class="bar">
+                <div id="progressBar"> </div>
+            </div>
+            <!--tag flex-container indica inicio do container do tipo flex box-->
+            <div class="flex-container">
+                <!--tag flex item1 indica que é o 1 item do nosso flex box, caso haja outros items devem ser nomeados flex-item2 etc.-->
+                <div class="flex-item1">
+                    <!--div das questões-->
+                    <div class="questoes">
+                        <h1>Questão 16</h1>
+                        <!--Questão-->
+                        
+                        <p>De acordo com o padrão IEEE 802.1Q, que estende o conceito de Rede Local Virtual (VLAN), cada porta de um comutador de rede (por exemplo, um switch) pode ser associada a VLANs marcadas (tagged) e/ou não marcadas (untagged). Alguns fabricantes denominam portas tronco (trunk) aquelas que estejam associadas a mais de uma VLAN marcada. Estas portas somente encaminham um quadro Ethernet que possua uma marca de VLAN contida em suas respectivas listas de VLANs marcadas. Para manter compatibilidade com redes legadas, foi também definido o conceito de VLAN nativa que representa uma VLAN não marcada associada a uma porta tronco. Desta forma, um quadro Ethernet que chega ao switch, através de uma porta tronco, não será descartado. Este quadro, na verdade, receberá uma marca equivalente à VLAN Nativa e será encaminhado. Muitos fabricantes, por padrão, usam o valor 1 para VLAN nativa. Este padrão, quando usado por roteadores, permite o roteamento Router-on-a-Stick, onde uma interface física é dividida em subinterfaces lógicas, cada qual associada a uma VLAN diferente, permitindo assim o roteamento de pacotes entre VLANs.
+                            Nesse contexto, suponha que haja a necessidade de se administrar uma rede legada, cuja estrutura já esteja montada e que não utilize a segmentação por VLAN. Como forma de melhorar o desempenho e oferecer alguma segurança, realiza-se a implantação de tal segmentação, conforme diagrama de topologia mostrado na figura a seguir.
+                            </p>
+
+                        <div class="imgQuestao"> <!--se a questão utilizar imagem-->
+                            <img src="../imagens/EQ5_Q16_ENADEREDES2021.png" alt="">
+                        </div>
+
+                        <p>Considere que:</p>
+                        <p>•	não seja possível alterar a estrutura física neste momento.</p>
+                        <p>•	apenas os dispositivos vinculados às VLANs mostradas na figura tem permissão para acessar a Internet.</p>   
+                        <p>•	os endereços IP estejam devidamente configurados e todas as portas dos enlaces (links) entre os ativos de rede (switches e roteador) estejam configuradas como troncos.</p>
+                        <p>•	a VLAN nativa não está configurada nos ativos de rede.</p>
+                        <p class="fonte"> <i> Disponível em: https://download.inep.gov.br/enade/provas_e_ gabaritos/2021_PV_tecnologia_redes_computadores.pdf</i></p>
+                        <p>Ao realizar os testes, percebe-se que tudo funciona como planejado, ou seja, os hosts de VLANs diferentes não se comunicam entre si e todos estão acessando a Internet, exceto o PC1.
+                            Com base no cenário descrito, qual dos ajustes a seguir deve ser feito para que o PC1 tenha acesso à Internet, preservando o funcionamento normal dos demais dispositivos da rede?
+                            </p>
+                        
+                        </div>    
+                        <dialog>
+                            <div class="modal">
+                                <h1>Acerto ou erro</h1>
+                                <p>Parabens ou Tente novamente</p>
+                                <input type="button" class="buttonNext" id="closeModal" value="Fechar X">
+                            </div>
+                        </dialog>
+                    <!--div das alternativas-->
+                    <div class="alternativas">
+                        <div class="altA">
+                            <input type="button" class="buttonClass" id="Q16altA" value="(A) Acrescentar uma rota na tabela de roteamento de R1 específica para o PC1."> 
+                        </div> 
+                        <div class="altA">
+                            <input type="button" class="buttonClass" id="Q16altB" value="(B) Configurar todas as portas do HUB como não marcadas (untagged) para VLAN 200.">   
+                        </div> 
+                        <div class="altA">
+                            <input type="button" class="buttonClass" id="Q16altC" value="(C) Remover as configurações de porta tronco da porta que liga o switch SW_Principal ao HUB."> 
+                        </div>
+                        <div class="altA">
+                            <input type="button" class="buttonClass" id="Q16altD" value="(D) Configurar a porta do HUB na qual o PC1 está conectado como não marcada (untagged) para VLAN 200."> 
+                        </div>
+                        <div class="altA">
+                            <input type="button" class="buttonClass" id="Q16altE" value="(E) Alterar a VLAN nativa nas portas tronco em cada um dos switches SW_Principal e SW1 para valor 200."> 
+                        </div>
+                    <div class="divBotoes">
+                        <input type="button" class="buttonNext" id="next" value="Próximo &#8680">
+                            <input type="button" class="buttonNext" id="final" value="Finalizar &#8718">
+                            <input type="button" class="buttonNext" id="checker" value="Corrigir &#10003">
+                    </div> 
+                    </div>       
+                </div> 
+            </div>            
+        </main>
+        <footer>
+            <div class="flexbox-footer">
+                <div class="logo-footer">
+                    <a href="http://www.fateccarapicuiba.edu.br/" target="_blank" rel=external><img src="../imagens/logo-fatec.jpg" width="200px" height="100px" ></a>
+                </div>
+                <div class="logo-footer">
+                    <a href="https://www.fateccarapicuiba.edu.br/analise-e-desenvolvimento-de-sistemas/" target="_blank" rel=external><img src="../imagens/logo-ads.png" width="200px" height="100px" ></a>
+                </div> 
+                <div class="logo-footer">
+                    <a href="https://www.cps.sp.gov.br/" target="_blank" rel=external><img src="../imagens/logo-cps.png" width="200px" height="100px" ></a>
+                </div>
+            </div> 
+        </footer>
+    </div>
+    <script src="../js/Contador.js"></script>
+    <script src="../js/controlador.js"></script>
+</body>
+</html>

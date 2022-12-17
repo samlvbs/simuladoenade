@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulado ENADE</title>
+    <link rel="stylesheet" href="../css/questoes.css">
+	<script src="../js/Plotly.js"></script>
+	
+</head>
+<body>
+	<header>
+		<nav>
+			<div class="logo">
+				<a href="https://www.gov.br/inep/pt-br" target="_blank" rel=external><img src="../imagens/logo inep.png" width="100px" height="30px" ></a>
+				<a href="index.html"><img src="../imagens/home1.png" alt=""></a>
+			</div>    
+			<div class="navegacao">
+				<div><a href="sobre.html">Sobre</a> </div>
+				<div><a href="creditos.html">Créditos</a> </div>
+			</div>
+		</nav>
+	</header>
+	<main>
+		<div class="flex-container">
+			<div class="flex-item1">
+				<div class="graficos">
+					<h2>Aqui estão as informações e estatisticas sobre seu desempenho no simulado que acabou de realizar.</h2>
+					<h3>Gráfico que mostra a quantidade de acertos, erros e questões não respondidas.</h3>
+					<div class="graficoTotal">
+						<div class="corretas"></div>
+						<div class="incorretas"></div>
+						<div class="naoRespondidas"></div>
+					</div>
+					<div class="legendas">
+						<div class="acertos"></div>
+						<div class="erros"></div>
+						<div class="emBranco"></div>
+					</div>
+					<h3>A seguir, gráficos que mostram a porcentagem de estudantes que selecionaram as alternativas em cada questão.</h3>
+					<h3>Os dados dos gráficos estão disponiveis no site no inep, clicando <a href="https://download.inep.gov.br/educacao_superior/enade/relatorio_sintese/2021/Enade_2021_Relatorios_Sintese_Area_Redes_Computadores.pdf" target="_blank" rel=external >AQUI</a> é possivel acessa-los.</h3>
+				</div>
+				<script src="../js/Contador.js"></script>
+				<script src="../js/controlador.js"></script>
+			</div>
+		</div>	
+	</main>
+<footer>
+	<div class="flexbox-footer">
+		<div class="logo-footer">
+			<a href="http://www.fateccarapicuiba.edu.br/" target="_blank" rel=external><img src="../imagens/logo-fatec.jpg" width="200px" height="100px" ></a>
+		</div>
+		<div class="logo-footer">
+			<a href="https://www.fateccarapicuiba.edu.br/analise-e-desenvolvimento-de-sistemas/" target="_blank" rel=external><img src="../imagens/logo-ads.png" width="200px" height="100px" ></a>
+		</div> 
+		<div class="logo-footer">
+			<a href="https://www.cps.sp.gov.br/" target="_blank" rel=external><img src="../imagens/logo-cps.png" width="200px" height="100px" ></a>
+		</div>
+	</div> 
+</footer>
+
+</body>
+</html>
